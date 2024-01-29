@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Home</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Education</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Skripsi</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            <br />Nama saya, <span class="home__title-color"></span><br />
+            Badriyah
+          </h1>
+
+          <a href="./Badriyah - Curiculum Vitae.pdf" class="button">Curiculum Vitae</a>
+        </div>
+
+        <div class="#">
+        </div>
+
+        <div class="home__img">
+            <g mask="url(#mask0)">
+              <image src="./images/Capture.jpg" alt="" />
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <image src="./images/Badriyah_CV.png" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">About Me</h2>
+            <p class="about__text">
+              Nama saya Badriyah dan saya lulusan Universitas Raharja. Saya mengambil jurusan sistem infomasi. Saat kuliah, saya magang kerja sebagai Intern IT di PT. LG Electronics Indonesia selama sebulan. Di situ saya membantu tim IT untuk melakukan pengumpulan data asset komputer dalam waktu satu bulan. Dari pengalaman singkat tersebut, saya memahami peran dan manfaat dari perolehan data asset komputer tersebut.
+            </p>
+          </div>
+        </div>
+      </section>
+
+ <!--===== SKILLS =====-->
+<section class="skills section" id="skills">
+  <h2 class="section-title">Education</h2>
+
+  <div class="skills__container bd-grid">          
+      <div>
+          <div>
+            <h2 class="skills__subtitle">Education</h2>
+  
+            <!-- Universitas Raharja -->
+            <div class="education__item">
+                <h3 class="education__title">Strata 1 - Sistem Informasi</h3>
+                <p class="education__info">Universitas Raharja</p>
+                <p class="education__info">IPK 3.51 </p>
+            </div>
+  
+            <!-- Universitas Bina Sarana Informatika -->
+            <div class="education__item">
+                <h3 class="education__title">Diploma III - Sistem Informasi</h3>
+                <p class="education__info">Universitas Bina Sarana Informatika</p>
+                <p class="education__info">IPK 3.38</p>
+            </div>
+        </div>
+        </div>
+                  
+      <div>
+          <div class="education__item">
+            <div class="about__img">
+              <image src="./images/UR.jpg" alt="" />
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+
+<!--===== Skripsi =====-->
+<section class="work section" id="work">
+  <h2 id="skripsiTitle" class="section-title">Tugas Akhir & Skripsi</h2>
+
+  <div class="work__container bd-grid">
+    <!-- Gambar 1 -->
+    <div class="work__item">
+      <div class="work__img work__img--left">
+        <img src="./images/portfolios/web-eskul.JPG" alt="" />
+      </div>
+      <div class="work__info work__info--right">
+        <p>Ini adalah Sistem Informasi Web Ekstrakurikuler, saya menggunakan bahasa pemrograman PHP dan database MySQL, menggunakan framework CodeIgniter
+          terdiri dari berbagai fitur yang bisa menunjang kebutuhan sekolah diantaranya :
+        </p>
+        <p>fitur daftar eskul siswa, absensi eskul, sampai laporan eskul.</p>
+      </div>
+    </div>
+
+    <!-- Gambar 2 -->
+    <div class="work__item">
+      <div class="work__info work__info--right">
+        <p>Ini adalah Sistem Informasi CRM - Keluhan Pelanggan, saya menggunakan bahasa pemrograman PHP dan database MySQL, menggunakan framework CodeIgniter</p>
+        <p>Sistem ini terdiri dari fitur : Menyampaikan keluhan pelanggan, Tracking/lacak keluhan pelanggan, laporan keluhan pelanggan</p>
+      </div>
+      <div class="work__img work__img--right">
+        <img src="./images/portfolios/dashboard_crm.jpg" alt="" />
+      </div>
+     
+    </div>
+
+    <!-- Gambar 3 -->
+    <div class="work__item">
+      <div class="work__img work__img--left">
+        <img src="./images/portfolios/attendance.JPG" alt="" />
+      </div>
+      <div class="work__info work__info--right">
+        <p>Ini adalah Sistem Informasi Kehadiran Karyawan, saya menggunakan bahasa pemrograman PHP dan database MySQL, menggunakan framework Laravel</p>
+        <p>Sistem ini terdiri dari fitur : Autentikasi Login, Absensi Karyawan, CRUD </p>
+        <p>Sistem ini juga masih dikembangkan dan masih diperbaiki</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+  </body>
+</html>
